@@ -1,18 +1,12 @@
 // Dados dos palestrantes
 const speakersData = {
-    'keynote': {
-      name: 'Claudia Charro',
-      info: 'Claudia Charro é formada em Pedagogia e Sistemas de Informação pela USP e atualmente é Technology Strategist na Microsoft. Está desde 2001 na área de tecnologia atuou como desenvolvedora, analista de sistemas, arquiteta e em 2015 transicionou para Cloud Computing como instrutora técnica e arquiteta de soluções na Amazon Web Services.Claudia foi uma das fundadoras do projeto TheFemTech e atualmente coordena as mentorias de carreira em grupo e ações de preparação promovidas pela Microsoft. Seu sonho é impactar a vida das pessoas através da tecnologia e promover ambientes saudáveis e de alta performance para qualquer pessoa que deseje ter uma carreira na tecnologia.',
-      image: "images/speakers/charro.jpeg",
-      title: 'Estrategista Técnica na Microsoft',      
-      icon: '',
-    },
-    'keynote2': {
-      name: 'Yara Mascarenhas',
-      info: 'Formada em Ciências da Computação pelo ICMC / USP - em São Carlos - Yara é co-fundadora da Globalcode e CEO do The Developers Conference (TDC), maior evento de profissionais de tecnologia da América Latina! Atua diariamente com as maiores empresas do setor para a co-criação de estratégias que gerem resultados através de interações - digitais e presenciais - com profissionais de tecnologia.A mais de uma década colabora com a gestão de comunidades e ecossistemas de inovação aberta!   Recentemente criou a ARENA Eventos Digitais, com objetivo de apoiar a transformação dos eventos presenciais aproveitando todo o potencial de geração de valor dos eventos online.',
-      image: "images/speakers/yara.jpeg",
-      title: "CEO at TDC The Developer's Conference",    
+    'ajuda': {
+      name: 'AWS MUTIRÃO TECH SOLIDÁRIO',
+      info: 'O Rio Grande do Sul está enfrentando um momento crítico devido às recentes e devastadoras inundações. Contamos com a sua solidariedade e apoio neste momento difícil. Por favor, considere fazer uma doação de qualquer valor escaneando o QR Code ao lado. Sua contribuição é vital para auxiliar as vítimas dessa tragédia. A sua ajuda fará muita diferença!',
+      image: "images/frame.png",
+      title: "AWS User Groups Brasil",    
       icon: '',  
+      link: 'https://www.vakinha.com.br/vaquinha/a-maior-campanha-solidaria-do-rs'
     },  
 
 

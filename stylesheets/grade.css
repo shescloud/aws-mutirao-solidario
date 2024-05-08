@@ -16,7 +16,7 @@ body {
     background-color: #694685;
     border-radius: 8px;
     margin-bottom: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
 
@@ -27,7 +27,7 @@ body {
     border-radius: 8px;
     margin-bottom: 10px;
     padding: 15px 0 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     text-align: left;
 }
@@ -37,7 +37,7 @@ body {
     padding: 10px 15px;
     font-weight: bold;
     color: #f7f1f1;
-    margin-right: 20px; 
+    margin-right: 20px;
     white-space: nowrap;
 }
 
@@ -55,11 +55,11 @@ body {
 }
 
 .speaker-photo img {
-    width: 100px; 
-    height:100px; 
-    border-radius: 10px; 
-    object-fit: cover; 
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     margin-right: 10px;
 }
 
@@ -73,7 +73,7 @@ body {
     font-weight: bold;
     color: #694685;
     text-align: left;
-    
+
 }
 
 .speaker {
@@ -89,93 +89,108 @@ body {
 
 /* mobile */
 @media (max-width: 768px) {
-    .schedule, .session, .session_speakers {
+
+    .schedule,
+    .session,
+    .session_speakers {
         flex-direction: column;
         align-items: center;
     }
 
-    .time, .break-session .break {
+    .time,
+    .break-session .break {
         width: 100%;
         text-align: center;
     }
 
     .speaker-photo img {
-        margin: 20px auto 10px; 
+        margin: 20px auto 10px;
     }
 
     .popup {
         width: 500px;
         max-height: 80vh;
     }
+
     .painel {
         position: relative;
-        order: -1; 
-        margin-top: 20px; 
+        order: -1;
+        margin-top: 20px;
     }
 
     .time-painel {
-        position: relative; 
+        position: relative;
         order: -2;
-        width: 100%; 
-        text-align: center; 
+        width: 100%;
+        text-align: center;
     }
 
 
 
-.popup-content {
-    padding: 20px;
-}
+    .popup-content {
+        padding: 20px;
+        text-align: left;
+        /* Alinha todo o texto à esquerda */
+    }
 
-.popup-close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-}
+    .popup-content button {
+        display: block;
+        /* Torna o botão um bloco para alinhar à esquerda */
+        margin-top: 20px;
+        /* Espaçamento superior para o botão */
+    }
 
-    
+    .popup-close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+
     .session_speakers {
-        flex-direction: row; 
-        flex-wrap: wrap; 
-        justify-content: center; 
-        max-width: 100%; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 100%;
     }
 
-    .speaker-photo, .talk {
+    .speaker-photo,
+    .talk {
         flex: 1;
-        min-width: 150px; 
-        text-align: left; 
+        min-width: 150px;
+        text-align: left;
     }
 
     .speaker-photo img {
-        width: 100px; 
-        height: 100px; 
-        margin:  10px 30px 30px; 
+        width: 100px;
+        height: 100px;
+        margin: 10px 30px 30px;
     }
 
     .talk {
-        display: flex; 
+        display: flex;
         flex-direction: column;
-        justify-content: center; 
+        justify-content: center;
     }
 }
 
 
 .session_speakers.multiple-images .speaker-photo {
-    flex: 0 1 auto; 
+    flex: 0 1 auto;
 }
 
 
 @media (max-width: 768px) {
     .popup {
         width: 90%;
-        max-width: 90%; 
-        height: auto; 
-        max-height: 80vh; 
-        overflow-y: auto; 
+        max-width: 90%;
+        height: auto;
+        max-height: 80vh;
+        overflow-y: auto;
     }
 }
 
@@ -200,8 +215,8 @@ body {
     left: 50%;
     top: 10%;
     transform: translateX(-50%);
-    width: 750px; 
-    min-height: 150px; 
+    width: 750px;
+    min-height: 150px;
     background-color: #fefefe;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
@@ -235,47 +250,56 @@ body {
 
 
 
-  .popup-header {
+.popup-header {
     display: flex;
-    align-items: center; 
-    margin-bottom: 20px; 
-  }
-  
-  .popup-speaker-photo {
-    width: 100px;
-    height: 100px; 
-    margin-right: 20px; 
-    object-fit: cover; 
-    border-radius: 10px; 
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  }
-  
-  .popup-speaker-info {
-    flex-grow: 1; 
-  }
-  
-  #speakerName {
-    margin: 0; 
-    font-size: 1.5em;
-    color: #694685; 
-    text-align: left;
-  }
-  
-  #speakerTitle {
-    margin: 0; 
-    font-size: 0.8em; 
-    color: #666; 
-    text-align: left;
-  }
+    align-items: center;
+    margin-bottom: 20px;
+}
 
-  #speakerInfo {
+.popup-speaker-photo {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup-speaker-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.donation-button {
+    display: block;
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+#speakerName {
+    margin: 0;
+    font-size: 1.5em;
+    color: #694685;
+    text-align: left;
+}
+
+#speakerTitle {
+    margin: 0;
+    font-size: 0.8em;
+    color: #666;
+    text-align: left;
+}
+
+#speakerInfo {
     color: #666;
     text-align: justify;
-  }
-  .pink-line {
-    border: 1px solid #694685; 
-    margin: 10px 0; 
 }
+
+.pink-line {
+    border: 1px solid #694685;
+    margin: 10px 0;
+}
+
 /* Estilos gerais para a navbar */
 .navbar {
     background-color: #333;
@@ -288,7 +312,7 @@ body {
     padding: 0;
 }
 
-.nav-menu > li {
+.nav-menu>li {
     float: left;
 }
 
@@ -312,7 +336,7 @@ body {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
