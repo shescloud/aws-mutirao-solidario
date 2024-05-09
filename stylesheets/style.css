@@ -1906,6 +1906,34 @@ ul.circle li {
   background-image: url(../images/comunidades/awsugbsb.png);
 }
 
+#page .section-3 .volunteers .vl-i .person[data-lname="Group Goiania"] .img {
+  background-image: url(../images/comunidades/goiania.jpg);
+}
+
+#page .section-3 .volunteers .vl-i .person[data-lname="Group Interior de SP"] .img {
+  background-image: url(../images/comunidades/interiorsp.png);
+}
+
+#page .section-3 .volunteers .vl-i .person[data-lname="Group Campinas"] .img {
+  background-image: url(../images/comunidades/campinas.png);
+}
+
+
+#page .section-3 .volunteers .vl-i .person[data-lname="Group CriciumaOps"] .img {
+  background-image: url(../images/comunidades/criciuma.jpeg);
+}
+
+#page .section-3 .volunteers .vl-i .person[data-lname="Group Blumenau"] .img {
+  background-image: url(../images/comunidades/blumenau.png);
+}
+
+#page .section-3 .volunteers .vl-i .person[data-lname="Group Rio Grande do Sul"] .img {
+  background-image: url(../images/comunidades/rs.png);
+}
+
+#page .section-3 .volunteers .vl-i .person[data-lname="Group Foz do Iguaçu"] .img {
+  background-image: url(../images/comunidades/foz.png);
+}
 
 
 #toggle {
